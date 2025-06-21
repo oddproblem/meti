@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 
 st.set_page_config(page_title="Digit Generator", layout="wide")
-st.title("🧠 MNIST Digit Generator (Trained from Scratch)")
+st.title("Digit Generator")
 st.markdown("Select a digit below to generate 5 unique handwritten samples using our Conditional GAN.")
 
 @st.cache_resource
